@@ -2195,6 +2195,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A82E3462455D26900EB0A70 /* SwiftProtobuf_iOS.xcconfig */;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
+				OTHER_CFLAGS = "-fembed-bitcode";
 			};
 			name = Debug;
 		};
@@ -2202,6 +2204,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A82E3462455D26900EB0A70 /* SwiftProtobuf_iOS.xcconfig */;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
+				OTHER_CFLAGS = "-fembed-bitcode";
 			};
 			name = Release;
 		};
